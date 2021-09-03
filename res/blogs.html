@@ -4,7 +4,7 @@ layout: default
 
 <div>
 {% for post in site.posts %}
-<a href="https://sansuiz.github.io/All-SANSUIZ/" style="font-size=1.5em">{{ post.title }}</a><br>
+<a href="{{ post.url }}/All-SANSUIZ/" style="font-size=1.5em">{{ post.title }}</a><br>
 <small>{{ post.date | date: "%B %-d, %Y" }}</small>
 <p>{{  post.desc }}</p>
 <br>
